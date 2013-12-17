@@ -1,0 +1,168 @@
+body {
+	font-family:sans-serif;
+	margin: 1em 2em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+#main {
+	margin:auto;
+	margin-top:1em;
+	width: 40em;
+}
+
+#divMenu {
+	margin-bottom: 0.3em;
+}
+div.menu {
+	border: 1px solid #000080;
+	display:inline;
+	padding: 0.3em 0.6em;
+	text-align: center;
+	margin: 0.2em;
+}
+div.menuSelected {
+	border: 1px solid #000080;
+	border-bottom: 1px solid #ffffff;
+	display:inline;
+	padding: 0.3em 0.6em;
+	text-align: center;
+	margin: 0.2em;
+}
+div.menuInvisible {
+	display:none;
+}
+a.menu:link, a.menu:visited {
+	text-decoration:none;
+}
+div.window {
+	display:none;
+}
+div.windowSelected {
+	border: 1px solid #000080;
+	border-bottom: none;
+	padding: 1em;
+	width: 40em;
+	height: 20em;
+	display:block;
+}
+
+/* ================================================ Edit Cards */
+
+#textareaEdit {
+	display:block;
+	width:40em;
+	height:20em;
+	margin:1em 0em;
+}
+ 
+/* ================================================ Learn Cards */
+
+
+#tableQuestioning {
+	width:40em;
+	table-layout: fixed;
+	border-spacing: 0em;
+	empty-cells: show;
+}
+
+#tdQuestion {
+	height: 4em;
+	text-align: center;
+}
+#tdInput {
+	height: 7em;
+	text-align: center;
+}
+#tdAnswer {
+	height: 3em;
+	text-align: center;
+}
+#tdValidation {
+	height: 4em;
+	text-align: center;
+}
+#tdStatistics {
+	height: 1em;
+	text-align: center;
+}
+
+div.learn, div.test, div.both {
+}
+
+#divQuestion {
+	font-size: 1.5em;
+}
+#formCheck {
+	margin:0px;
+}
+#inputAnswer {
+	width:15em;
+	font-size: 1.5em;
+}
+input.answers {
+	visibility: hidden;
+}
+#inputCheck {
+	display:inline;
+	width: 7em;
+}
+#inputNext {
+	width: 7em;
+}
+#inputRepeatFalse {
+	display:none;
+	width: 7em;
+}
+#inputRestart {
+	display:inline;
+}
+
+#divCorrectAnswer {
+	font-size: 1.5em;
+}
+#divValidation {
+	display:inline;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+div.correct {
+	color: green;
+}
+div.false {
+	color: red;
+}
+#divStatistics {
+}
+div.statisticsLabel {
+	display:inline;
+}
+
+div.statisticsValue {
+	display:inline;
+	text-align:right;
+	margin:0em 0.8em 0em 0.1em;
+	background-color:#a0a0a0;
+	color:#ffffff;
+	padding:0.2em;
+	
+}
+
+/* ================================================ Footer */
+
+#footer {
+	padding: 0.3em 1em;
+	color: #ffffff;
+	font-weight: bold;
+	width: 40em;
+	background-color: #c0c0c0;
+	border: 1px solid #000080;
+	border-top: none;
+}
+
+#footer a:link, #footer a:visited {
+	color: #ffffff;
+}
+
