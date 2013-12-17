@@ -222,8 +222,9 @@ There are 3 ways to save your flashcards:
 
 	<dt>at <em>del.icio.us</em></dt>
 	<dd>Your flashcards will be shared with others and available at the <strong>Cards</strong> button. You need an <a href="http://del.icio.us/register">account</a> at <a href="http://del.icio.us/">del.icio.us</a>. Use tags to describe your cards like <em>sharedcards german english fruits vegetables</em>.
+  <!-- Commented out, because set to "jorges"
 	<br>
-	<a href="javascript:location.href='http://del.icio.us/jorges?tags=sharedcards&notes=sharedCards+flashcards&url=' + encodeURIComponent(location.href);">To save click here</a>. 
+<a href="javascript:location.href='http://del.icio.us/jorges?tags=sharedcards&notes=sharedCards+flashcards&url=' + encodeURIComponent(location.href);">To save click here</a>. -->
 
 	</dd>
 </dl>
