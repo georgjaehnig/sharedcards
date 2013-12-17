@@ -68,7 +68,7 @@ $output['text'] = stripslashes($_GET['text']);
 // else: mainpage
 
 if ($output['text']) {	
-	$output['urlEdit'] = "http://" . $_SERVER['HTTP_HOST'] . "/?action=edit&text=" . urlencode($output['text']);
+	$output['urlEdit'] = "?action=edit&text=" . urlencode($output['text']);
 	$output['javascriptMainCards'] = parseText($output['text']);	
 
 	if ($output['action'] != 'edit') {	
