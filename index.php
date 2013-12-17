@@ -576,7 +576,7 @@ main['action'] = '<?PHP echo $output['action'] ?>';
 	<a class="menu" href="javascript:setWindow('Home');">Home</a>
 	</div>
 	<div class="menu">
-	<a class="menu" href="http://del.icio.us/tag/sharedcards">Cards &gt;</a>
+	<a class="menu" href="http://del.icio.us/jorges/sharedcards">Cards &gt;</a>
 	</div>
 	<div class="menu" id="menuEdit">
 	<a class="menu" href="<?PHP echo $output['urlEdit'] ?>">Edit</a>
@@ -693,7 +693,7 @@ sharedcards
 |
 <a href="http://jaehnig.org/wiki/Imprint">Imprint</a>
 |
-<a href="http://code.google.com/p/sharedcards/">Source code</a>
+<a href="https://github.com/georgjaehnig/sharedcards">Source code</a>
 </div>
 
 </div>
