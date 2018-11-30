@@ -60,8 +60,8 @@ function parseText($text)
 	return $javascriptMainCards;
 }
 
-$output['action'] = $_GET['action'];
-$output['text'] = stripslashes($_GET['text']);
+$output['action'] = $_GET['action'] ?? '';
+$output['text'] = stripslashes($_GET['text']) ?? '';
 
 // text + edit -> edit
 // only text -> learn
