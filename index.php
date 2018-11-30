@@ -61,7 +61,7 @@ function parseText($text)
 }
 
 $output['action'] = $_GET['action'] ?? '';
-$output['text'] = stripslashes($_GET['text']) ?? '';
+$output['text'] = stripslashes($_GET['text'] ?? '');
 
 // text + edit -> edit
 // only text -> learn
